@@ -1,0 +1,297 @@
+.atas {
+    display: flex;
+    background: #bfbfa6;
+  }
+  
+  img.gambar {
+    height: 140px;
+    width: 80px;
+  }
+  
+  h1.h-title {
+    top: -150px;
+    left: 160px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  header {
+    margin-bottom: 0px;
+  }
+  
+  .title {
+    top: -150px;
+    left: 160px;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  .menubar {
+    margin-top: 0px;
+    background: lightgry;
+  }
+  ul.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    color: white;
+    background: #83c9b5;
+    margin-top: 0px;
+}
+  li {
+    margin: 10px;
+  }
+  
+  .tentang-saya {
+    width: fit-content;
+    background: #8fb0cf;
+    padding: 3px;
+    border-radius: 5px;
+  }
+  
+  h2.subtittle {
+    padding: 10px;
+    color: white;
+  }
+  
+  .detail p {
+    text-align: justify;
+    margin: 20px;
+  }
+  
+  .detail {
+    background: #dbd5b6;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tentangsaya {
+    width: fit-content;
+    background: #bfbfa6;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  th {
+    text-align: center;
+  }
+  
+  thead {
+    background: lightgray;
+  }
+  
+  table.table-pengalaman.table.table-striped {
+    margin-top: 20px;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+  
+  .pertanyaan {
+    background: lightgray;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .form {
+    padding: 20px;
+  }
+  
+  input.box {
+    border-radius: 10px;
+    width: 75%;
+  }
+  
+  .isi {
+    font-size: 17px;
+  }
+  footer {
+    background: #b3b584;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  img.gambar {
+    width: 100px;
+  }
+  
+  h1.h-title {
+    color: white;
+    font-size: 30px;
+  }
+  
+  header {
+    margin-bottom: 0px;
+  }
+  
+  .title {
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  .menubar {
+    margin-top: 0px;
+    background: lightgray;
+  }
+  ul.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    color: white;
+    margin-top: 0px;
+  }
+  li {
+    margin: 10px;
+  }
+  
+  .tentang-saya {
+    width: fit-content;
+    background: lightseagreen;
+    padding: 3px;
+    border-radius: 5px;
+  }
+  
+  h2.subtittle {
+    padding: 10px;
+    color: white;
+  }
+  
+  p.caption {
+    color: white;
+  }
+  
+  .detail p {
+    text-align: justify;
+    margin: 20px;
+  }
+  
+  .detail {
+    background: #d6d0d0;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  th {
+    text-align: center;
+  }
+  
+  thead {
+    background: lightgray;
+  }
+  
+  table.table-pengalaman.table.table-striped {
+    margin-top: 20px;
+  }
+  
+  .pertanyaan {
+    background: lightgray;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .form {
+    padding: 20px;
+  }
+  
+  input.box {
+    border-radius: 10px;
+    width: 75%;
+  }
+  
+  .isi {
+    font-size: 17px;
+  }
+  
+  .mb-3.name {
+    display: flex;
+  }
+  
+  input.form-control {
+    margin-left: 10px;
+  }
+  
+  form.isi {
+    padding: 10px;
+  }
+  
+  table.table-pengalaman.table.table-secondary.table-hover {
+    margin-top: 25px;
+  }
+  @media screen and (max-width: 1100px) {
+    #navbar {
+      display: flex;
+      flex-direction: column;
+      width: 75%;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    #header h1 + h2 {
+      font-size: 1.25em;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    #header h1 {
+      font-size: 1.75em;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    #header {
+      background-size: 25%, 75%;
+    }
+    #header h1,
+    #header h2 {
+      width: 75%;
+    }
+    #header {
+      font-size: 80%;
+    }
+    #foto {
+      height: 100%;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .section {
+      padding: 10px 10% 10px 10%;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    body {
+      font-size: 95%;
+    }
+    #header {
+      font-size: 65%;
+    }
+    #navbar a {
+      padding: 7px;
+    }
+    .section {
+      padding: 10px 5% 10px 5%;
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .pengalaman-kerja {
+      font-size: 75%;
+    }
+    #navbar a {
+      padding: 5px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 75%;
+    }
+  }
+  
